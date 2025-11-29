@@ -1,1 +1,186 @@
-<h1>MyMiniCloud – Blog</h1><a href="/">Back</a>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMiniCloud Blog - Trang Chủ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-indigo-600">MyMiniCloud Blog</h1>
+                <div class="flex space-x-6">
+                    <a href="../index.html" class="text-indigo-600 font-medium">Trang chủ</a>
+                    <a href="#blog" class="text-gray-600 hover:text-indigo-600">Blog</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Chào mừng đến với MyMiniCloud Blog</h1>
+            <p class="text-xl mb-8">Khám phá công nghệ, đời sống và du lịch qua những câu chuyện thú vị</p>
+            <a href="#blog" class="inline-flex items-center bg-white text-indigo-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition duration-300">
+                Khám phá ngay <i data-feather="arrow-down" class="ml-2 w-4 h-4"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="blog" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Bài viết mới nhất</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                <a href="blog1.html">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=640&h=360&fit=crop" 
+                             alt="AI Technology" 
+                             class="w-full h-full object-cover hover:scale-110 transition duration-300"
+                             onerror="this.src='https://via.placeholder.com/640x360/4F46E5/FFFFFF?text=AI+Technology'">
+                    </div>
+                </a>
+                <div class="p-6">
+                    <span class="text-sm text-indigo-600 font-medium">Công Nghệ</span>
+                    <a href="blog1.html">
+                        <h3 class="text-xl font-bold mt-2 mb-3 text-gray-800 hover:text-indigo-600 transition">
+                            Trí Tuệ Nhân Tạo: Cuộc Cách Mạng Công Nghệ Đang Thay Đổi Thế Giới
+                        </h3>
+                    </a>
+                    <p class="text-gray-600 mb-4">
+                        Khám phá cách AI đang thay đổi mọi ngành công nghiệp và tạo ra tương lai mới cho nhân loại...
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center text-gray-500 text-sm">
+                            <i data-feather="calendar" class="w-4 h-4 mr-1"></i>
+                            <span>20/11/2025</span>
+                        </div>
+                        <a href="blog/blog1.html" class="text-indigo-600 font-medium hover:text-indigo-800 flex items-center">
+                            Đọc thêm <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                <a href="blog2.html">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=640&h=360&fit=crop" 
+                             alt="Healthy Lifestyle" 
+                             class="w-full h-full object-cover hover:scale-110 transition duration-300"
+                             onerror="this.src='https://via.placeholder.com/640x360/10B981/FFFFFF?text=Healthy+Lifestyle'">
+                    </div>
+                </a>
+                <div class="p-6">
+                    <span class="text-sm text-green-600 font-medium">Đời Sống</span>
+                    <a href="blog2.html">
+                        <h3 class="text-xl font-bold mt-2 mb-3 text-gray-800 hover:text-green-600 transition">
+                            Lối Sống Lành Mạnh: 7 Thói Quen Đơn Giản Thay Đổi Cuộc Đời
+                        </h3>
+                    </a>
+                    <p class="text-gray-600 mb-4">
+                        Những thói quen nhỏ nhưng hiệu quả giúp bạn có một cuộc sống khỏe mạnh và hạnh phúc hơn...
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center text-gray-500 text-sm">
+                            <i data-feather="calendar" class="w-4 h-4 mr-1"></i>
+                            <span>18/11/2025</span>
+                        </div>
+                        <a href="blog/blog2.html" class="text-green-600 font-medium hover:text-green-800 flex items-center">
+                            Đọc thêm <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                <a href="blog3.html">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=640&h=360&fit=crop" 
+                             alt="Sapa Mountains" 
+                             class="w-full h-full object-cover hover:scale-110 transition duration-300"
+                             onerror="this.src='https://via.placeholder.com/640x360/F97316/FFFFFF?text=Sapa+Mountains'">
+                    </div>
+                </a>
+                <div class="p-6">
+                    <span class="text-sm text-orange-600 font-medium">Du Lịch</span>
+                    <a href="blog3.html">
+                        <h3 class="text-xl font-bold mt-2 mb-3 text-gray-800 hover:text-orange-600 transition">
+                            Sapa Mùa Đông: Hành Trình Đến Vùng Đất Mây Trắng
+                        </h3>
+                    </a>
+                    <p class="text-gray-600 mb-4">
+                        Khám phá vẻ đẹp hùng vĩ của Sapa mùa đông, từ đỉnh Fansipan đến ruộng bậc thang mùa nước đổ...
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center text-gray-500 text-sm">
+                            <i data-feather="calendar" class="w-4 h-4 mr-1"></i>
+                            <span>15/11/2025</span>
+                        </div>
+                        <a href="blog/blog3.html" class="text-orange-600 font-medium hover:text-orange-800 flex items-center">
+                            Đọc thêm <i data-feather="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Về MyMiniCloud Blog</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-8">
+                MyMiniCloud Blog là nơi chia sẻ những câu chuyện thú vị về công nghệ, lối sống lành mạnh và những trải nghiệm du lịch độc đáo. Chúng tôi tin rằng kiến thức và trải nghiệm đáng giá khi được chia sẻ.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-300">
+                    Liên hệ
+                </a>
+                <a href="#blog" class="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-300 transition duration-300">
+                    Xem tất cả bài viết
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">MyMiniCloud Blog</h3>
+                    <p class="text-gray-400">Khám phá thế giới qua những câu chuyện đầy cảm hứng</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Danh mục</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="blog1.html" class="hover:text-white">Công nghệ</a></li>
+                        <li><a href="blog2.html" class="hover:text-white">Đời sống</a></li>
+                        <li><a href="blog3.html" class="hover:text-white">Du lịch</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Theo dõi chúng tôi</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="facebook" class="w-6 h-6"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="twitter" class="w-6 h-6"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="instagram" class="w-6 h-6"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 MyMiniCloud Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
+
+<!-- <h1>MyMiniCloud – Blog</h1><a href="/">Back</a> -->
