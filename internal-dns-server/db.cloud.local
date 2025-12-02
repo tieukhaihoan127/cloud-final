@@ -1,5 +1,32 @@
 $TTL 1H
-@ IN SOA ns.cloud.local. admin.cloud.local. ( 1 1H 15M 1W 1H )
+@ IN SOA ns.cloud.local. admin.cloud.local. ( 2 1H 15M 1W 1H )
   IN NS ns.cloud.local.
+
+; Nameserver
 ns IN A 127.0.0.1
+
+; Web Services
 web-frontend-server IN A 10.10.10.10
+api-gateway IN A 10.10.10.12
+
+; Application Backend
+application-backend-server IN A 10.10.10.11
+app-backend IN A 10.10.10.20
+
+; Authentication & Identity
+keycloak IN A 10.10.10.30
+authentication-identity-server IN CNAME keycloak
+
+; Object Storage
+minio IN A 10.10.10.40
+object-storage-server IN CNAME minio
+
+; Database
+mariadb IN A 10.10.10.50
+relational-database-server IN CNAME mariadb
+
+; Monitoring
+prometheus IN A 10.10.10.60
+grafana IN A 10.10.10.61
+monitoring-prometheus-server IN CNAME prometheus
+monitoring-grafana-dashboard-server IN CNAME grafana

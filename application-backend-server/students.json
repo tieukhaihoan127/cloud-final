@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn An",
+    "major": "Computer Science",
+    "gpa": 3.85
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị Bình",
+    "major": "Software Engineering",
+    "gpa": 3.92
+  },
+  {
+    "id": 3,
+    "name": "Lê Hoàng Cường",
+    "major": "Information Technology",
+    "gpa": 3.67
+  },
+  {
+    "id": 4,
+    "name": "Phạm Minh Dũng",
+    "major": "Data Science",
+    "gpa": 3.78
+  },
+  {
+    "id": 5,
+    "name": "Võ Thị Hương",
+    "major": "Cyber Security",
+    "gpa": 3.95
+  }
+]
